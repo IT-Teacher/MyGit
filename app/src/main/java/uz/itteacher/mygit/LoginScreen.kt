@@ -1,2 +1,0 @@
-package uz.itteacher.mygit
-
