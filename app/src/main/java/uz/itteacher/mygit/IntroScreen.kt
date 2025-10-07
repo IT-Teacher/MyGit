@@ -5,5 +5,5 @@ import androidx.compose.runtime.Composable
 
 @Composable
 fun IntroScreen() {
-    Text(text = "Salom")
+    Text(text = "Xayr")
 }
