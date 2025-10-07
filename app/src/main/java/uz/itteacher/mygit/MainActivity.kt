@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyGitTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                  Text(text = "Salom", modifier = Modifier.padding(innerPadding))
+                  Text(text = "Hello", modifier = Modifier.padding(innerPadding))
                 }
             }
         }
