@@ -10,5 +10,4 @@ fun IntroScreen() {
 
 
 
-
-//Updated
+//Otabek
