@@ -12,7 +12,7 @@ Tracks daily habits, shows streaks, and can schedule daily reminder notification
 - Built with Jetpack Compose (Material3) and Room.
 
 
-# How reminders work (short)
+# How reminders work 
 1. When user adds/edits a habit and enables a reminder, the app stores `reminderEnabled` and `reminderTime` in the `habits` table.  
 2. `ReminderScheduler` schedules a daily alarm using `AlarmManager` with a `PendingIntent` that targets `ReminderReceiver`.  
 3. `ReminderReceiver` builds and shows the notification when the alarm triggers.  
